@@ -1,0 +1,37 @@
+
+-------------------------------------------Run on netbeans-----------------------------------
+
+
+- Mila Netbeans 21 sy jdk 21 installé 
+
+- Extractena ilay openjfx-21.0.2_windows-x64_bin-sdk.zip de copiena any amn repertoire izay tiana
+
+- Ilay chemin an'ilay bin ao anatiny atao anaty " variable d'environnement " an'ilay systeme (ao anaty Path)
+
+- Sokafana sur netbeans le projet
+
+- Mila miandry ela ela ny fisokafan'ilay projet tanteraka ( Mila connection amin'ny voalohany (ihany) i-telechargeny an'ilay dépendance rehetra)
+
+- Rehefa voasokatra tsara le projet ( tokony tsisy fichier menamena tsony)
+
+- Click droite eo amin'ilay projet -> Properties(farany ambany) -> run -> 
+
+    --le Main Class asiana : "application.Main" raha tsy misy
+    -- VM Options : --module-path "chemin any amin'ilay  openjfx tamin'ny voalohany de aveo /lib" --add-modules javafx.base,javafx.controls,javafx.fxml,javafx.graphics
+
+        ohatra : --module-path "D:\Level3\javafx-sdk-21.0.2\lib" --add-modules javafx.base,javafx.controls,javafx.fxml,javafx.graphics
+
+    --OK
+
+- Clean and build : Click droite eo amin'ilay projet -> Clean and build
+
+- Sokafana ilay Main.java
+
+- De atao RUN amin'izay
+
+
+De tokony isokatra tsara amin'izay . 
+
+Mazotoa tompoko ;)
+
+-------------------------------------------------------------------------------------------------
